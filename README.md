@@ -8,7 +8,7 @@ You'll also need to [Enable Pipelines in the Web UI] (https://docs.openshift.com
 
 ```systemctl atomic-openshift-master``` 
 
-Or for HA systems:
+Or for HA installations:
 
 ```systemctl atomic-openshift-master-api```.
 
