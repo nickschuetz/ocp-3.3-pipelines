@@ -6,11 +6,11 @@ As cluster admin exectute the following command:
 
 You'll also need to [Enable Pipelines in the Web UI] (https://docs.openshift.com/container-platform/3.3/install_config/web_console_customization.html#web-console-enable-tech-preview-feature) and restart your master service:
 
-```systemctl atomic-openshift-master``` 
+```systemctl restart atomic-openshift-master``` 
 
 Or for HA installations:
 
-```systemctl atomic-openshift-master-api```.
+```systemctl restart atomic-openshift-master-api```.
 
 
 Now you can test it with the following example: [Using Jenkins Pipelines with OpenShift] (https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline)
