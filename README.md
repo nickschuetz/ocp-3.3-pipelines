@@ -1,4 +1,4 @@
-This document goes over how to enable the Technology Preview Pipelines feature in OpenShift Container Platform 3.3
+# How to enable the Pipelines Technology Preview feature in OpenShift Container Platform 3.3
 
 1. As cluster admin exectute the following command:
 
